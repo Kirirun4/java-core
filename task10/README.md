@@ -29,9 +29,9 @@ public class JvmComprehension {
 ```
 ## Решение
 
-/*Вначале JVM с помощью ClassLoader загрузит классы. С помощью Application ClassLoader загрузит класс JvmComprehension. 
+*Вначале JVM с помощью ClassLoader загрузит классы. С помощью Application ClassLoader загрузит класс JvmComprehension. 
 С помощью Bootstrap ClassLoader загрузит классы System, Object и другие системные. 
-Создаётся стековая память(Stack Memory).*/
+Создаётся стековая память(Stack Memory).*
 
 ```java
 public class JvmComprehension {
@@ -51,4 +51,4 @@ public class JvmComprehension {
 }
 ```
 
-/*Сборщик мусора почистит объекты которые становятся недостижимыми при дальнейшем исполнении программы.*/
+*Сборщик мусора почистит объекты которые становятся недостижимыми при дальнейшем исполнении программы.*
