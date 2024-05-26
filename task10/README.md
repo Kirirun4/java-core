@@ -43,9 +43,9 @@ public class JvmComprehension {
 						которому присваивается ссылка на этот объект*/
         Integer ii = 2;                 // 3 /*создаст в heap объект Integer "ii" со значением 2*/
         printAll(o, i, ii);             // 4 /*создаст фрейм  printAll в Stack Memory,
-					в нем записываются переменные Object o, int i и Integer ii*/
+						в нем записываются переменные Object o, int i и Integer ii*/
         System.out.println("finished"); // 7 /*создаст фрейм  println в Stack Memory,
-				которому передается ссылка на объект String со значением "finished"*/
+						которому передается ссылка на объект String со значением "finished"*/
 		/*в ходе работы программы отрабатывает Garbage Collector*/
     }
 
