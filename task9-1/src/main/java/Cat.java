@@ -37,7 +37,7 @@ public class Cat {
         return user;
     }
 
-    public String getUpvotes() {
+    public Integer getUpvotes() {
         return upvotes;
     }
 
