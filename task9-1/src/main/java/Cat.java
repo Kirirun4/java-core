@@ -12,7 +12,7 @@ public class Cat {
             @JsonProperty("text") String text,
             @JsonProperty("type") String type,
             @JsonProperty("user") String user,
-            @JsonProperty("upvotes") Integer upvotes)
+            @JsonProperty("upvotes") String upvotes)
     {
         this.id = id;
         this.text = text;
